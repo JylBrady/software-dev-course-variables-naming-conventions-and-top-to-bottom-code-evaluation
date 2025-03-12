@@ -24,9 +24,13 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let name = 'Alice';
+let items = 'candy bars'
+let itemCount = 5;
+let itemCost = 4;
+let totalCost = itemCount * itemCost;
+let statement = name + ' bought ' + itemCount + ' ' + items + ' for $' + totalCost + '.'
 
-console.log(d);
+console.log(statement);
+
+
